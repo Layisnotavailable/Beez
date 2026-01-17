@@ -1,0 +1,143 @@
+/*
+Theme Name:     Raft
+Theme URI:      https://themeisle.com/themes/raft/
+Author:         ThemeIsle
+Author URI:     https://themeisle.com
+Tested up to:   6.0.1
+Requires PHP:   7.0
+Requires at least: 5.5
+Description:    Raft is a lightweight, full-site-editing compatible (FSE) theme ready for your next website. Raft is a super fast, easily customizable, simple theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. Raft works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder or the Block Editor). Raft is also WooCommerce ready, responsive, RTL & translation ready. Learn more at https://themeisle.com/themes/raft/.
+Version:        1.0.5
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    raft
+WordPress Available:  yes
+Requires License:     no
+Tags: one-column, custom-colors, custom-menu, custom-logo, e-commerce, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+*/
+body, html{
+    height: auto!important;
+}
+.wp-site-blocks {
+    background: #fff;
+}
+:root {
+    --var-color-1: #febb00;
+    --var-color-2: #5a6066;
+    --var-color-3: #fe8d00;
+    --var-color-4: #fcd41e;
+    --var-color-5: #414340;
+    --var-color-6: #95b9c2;
+}
+.login h1 a {
+    background-image: url('./imagens/logo.png')!important;
+    background-size: contain;
+    width: 250px;
+    height: 150px;
+}
+body.login {
+    background: var(--var-color-6);
+}
+.login form {
+    background: transparent!important;
+    border: 0!important;
+    box-shadow: 0 7px 10px #41434054;
+}
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+    background: transparent;
+    border-color: var(--var-color-4);
+}
+.login .button.wp-hide-pw{
+    color: var(--var-color-4);
+}
+.login label {
+    color: var(--var-color-5);
+    font-weight: bold;
+}
+.login .button-primary{
+    background: var(--var-color-1);
+    border-color: var(--var-color-1);
+}
+.login .button-primary:hover{
+    background: #d9a000;
+    border-color: #d9a000;
+}
+.wc-block-components-product-sort-select {
+    text-align: center!important;
+}
+#wc-block-components-sort-select__select-0 {
+    border: 1px solid var(--var-color-6);
+    background: #fff;
+    color: var(--var-color-6);
+    margin: 20px 0;
+}
+.wc-block-grid__product .wc-block-components-product-image a img{
+    position: absolute;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    max-width: 300px;
+}
+.wc-block-grid__product .wc-block-components-product-image a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wc-block-grid__product .wc-block-components-product-image {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+#wp-block-themeisle-blocks-form-6d9cfefe .wp-block-button__link{
+    border-radius: 20px;
+}
+.wp-block-woocommerce-filled-mini-cart-contents-block{
+    background: #fff;
+}
+.wc-block-mini-cart__footer-checkout {
+    background-color: var(--var-color-6)!important;
+} 
+.wc-block-mini-cart__footer-cart:hover{
+    background-color: var(--var-color-1)!important;
+}
+.single-product .product_title {
+    color: var(--var-color-1)!important;
+}
+.single-product .summary  p.price {
+    color: var(--var-color-6)!important;
+}
+.single-product .single_add_to_cart_button{
+    background-color: var(--var-color-6)!important;
+    border-radius: 20px;
+}
+.single-product .woocommerce-LoopProduct-link .onsale{
+    background: var(--var-color-1)!important;
+}
+.single-product li.product .add_to_cart_button{
+    background: var(--var-color-6)!important;
+    color: #fff!important;
+} 
+.wp-block-group  .wp-block-post-title{
+    color: var(--var-color-1)!important;
+}
+.wc-proceed-to-checkout .checkout-button{
+    background: var(--var-color-6)!important;
+}
+.woocommerce-checkout-payment .wc_payment_methods{
+    background: #fff;
+}
+.woocommerce-checkout-payment .payment_box.payment_method_bacs:before,
+.woocommerce-checkout-payment  .payment_box.payment_method_stripe:before{
+    border: 1em solid #95b9c24d;
+}
+.woocommerce-checkout .place-order,
+.woocommerce-checkout-payment .payment_box.payment_method_bacs,
+.woocommerce-checkout-payment  .payment_box.payment_method_stripe{
+    background: #95b9c24d!important;
+}
+.woocommerce-checkout .place-order #place_order{
+    background: var(--var-color-6)!important;
+}

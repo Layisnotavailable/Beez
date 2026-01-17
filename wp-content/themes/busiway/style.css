@@ -1,0 +1,68 @@
+/*
+Theme Name: Busiway
+Theme URI: https://themeansar.com/free-themes/busiway/
+Author: themeansar
+Author URI: https://themeansar.com
+Template: consultup
+Description: Busiway WordPress theme ideal for a business or perfect solutions for corporate, consulting, wedding planners, agency, law firms, finance, law travel, recipes, sport/medical shops, startups, online agencies, portfolios, freelancers, E-commerce.  The theme is responsive, WPML, Retina ready, SEO friendly (Live preview : https://demo.themeansar.com/consultup/transparent/)
+Version: 1.6
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: busiway
+*/
+html {
+    background: #fff;
+}
+:root {
+    --var-color-1: #febb00;
+    --var-color-2: #5a6066;
+    --var-color-3: #fe8d00;
+    --var-color-4: #fcd41e;
+    --var-color-5: #414340;
+    --var-color-6: #95b9c2;
+}
+.login h1 a {
+    background-image: url('./imagens/logo.png');
+    background-size: contain;
+    width: 250px;
+    height: 150px;
+}
+body.login {
+    background: var(--var-color-6);
+}
+.login form {
+    background: transparent!important;
+    border: 0!important;
+    box-shadow: 0 7px 10px #41434054;
+}
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+    background: transparent;
+    border-color: var(--var-color-4);
+}
+.login .button.wp-hide-pw{
+    color: var(--var-color-4);
+}
+.login label {
+    color: var(--var-color-5);
+    font-weight: bold;
+}
+.login .button-primary{
+    background: #febb00;
+    border-color: #febb00;
+}
+.login .button-primary:hover{
+    background: #d9a000;
+    border-color: #d9a000;
+}
+.navbar-header {
+    margin-left: -15px;
+}
+.navbar-toggle {
+    margin: 5px auto;
+}
+@media (max-width: 768.99px) {
+.consultup-breadcrumb-title h1 {
+    font-size: 28px;
+}
+}
